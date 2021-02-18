@@ -1,0 +1,342 @@
+.header {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-align: center; 
+    height:100px;
+    border-bottom: 5px solid #1877f2;
+    margin-bottom: 25px;
+}
+.form {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px auto;
+    padding: 40px 20px 40px;
+    width: 350px;
+    text-align: center;
+}
+
+/*Background to webpage*/
+body{
+    background: #f0f2f5;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+}
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input1 {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: calc(100% - 23px);
+}
+
+
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #1877f2;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 10px auto;
+    padding: 10px 5px 10px;
+}
+.logout-button{
+    color: #0062148a !important;
+    font-size: 16px !important;
+    border: 2px !important;
+    outline: 2px !important;
+    cursor: pointer !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1) !important;
+    box-sizing: border-box !important;
+    margin: 10px auto !important;
+    padding: 10px 5px 10px !important;
+
+}
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: #666;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+/*Used for Service REcord*/
+h4 {
+    font-size: 22.5px;
+    color: #3674c3;
+    margin-right: 290px;
+    text-align: center;
+}
+/*Session naming*/
+#naming{
+    color: #92a8d1;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+/*remove link text decoration*/
+a{
+    text-decoration: none;
+}
+.topright{
+			position: absolute;
+			top: 10px;
+			right: 16px;
+			font-size: 18px;
+}
+.topright1{
+			position: absolute;
+			top: 32px;
+			right: 18px;
+			font-size: 18px;
+}
+/*to allighn left */
+.left{
+    float: left;
+    
+}
+
+/*to allighn center*/ 
+.center { 
+            text-align-last: center;
+            overflow: auto;
+            border: 1px ; 
+        } 
+
+.clearfix {
+  overflow: auto;
+}
+
+#tab {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*    styling for table*/
+table { 
+            margin: 0 auto; 
+            margin-bottom: 50px;
+            font-size: large; 
+            width:80%; 
+            border: 1px solid black; 
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+        } 
+  
+        h1 { 
+            text-align: center; 
+            color: #2B547E; 
+            font-size: xx-large; 
+            font-family: 'Gill Sans', 'Gill Sans MT',  
+            ' Calibri', 'Trebuchet MS', 'sans-serif'; 
+        } 
+        h2 { 
+            text-align: right; 
+            color: #2B547E;
+            margin-right: 155px;
+            font-size: inherit; 
+            font-family: 'Gill Sans', 'Gill Sans MT',  
+            ' Calibri', 'Trebuchet MS', 'sans-serif'; 
+        } 
+    h3 { 
+            text-align: right; 
+            color: #2B547E;
+            margin-right: 5px;
+            font-size: inherit; 
+            font-family: 'Gill Sans', 'Gill Sans MT',  
+            ' Calibri', 'Trebuchet MS', 'sans-serif'; 
+        } 
+  
+        td { 
+            padding:7px; border:#4e95f4 1px solid; 
+        } 
+  
+        th, 
+        td { 
+            font-weight: bold; 
+            border: 1px solid black; 
+            padding: 10px; 
+            text-align: center; 
+        } 
+  
+        td { 
+            font-weight: lighter; 
+        } 
+.topright{
+			position: absolute;
+			top: 10px;
+			right: 16px;
+			font-size: 18px;
+}
+.topright1{
+			position: absolute;
+			top: 32px;
+			right: 18px;
+			font-size: 18px;
+}
+
+
+	/*  Define the background color for all the ODD background rows  */
+	Table tr:nth-child(odd){ 
+		background: #b8d1f3;
+	}
+/*    Table tr:hover {background-color: #808080}*/
+	/*  Define the background color for all the EVEN background rows  */
+	Table tr:nth-child(even){
+		background: #dae5f4;
+	}
+/*
+    Table tr:hover {background-color: #808080}
+        
+*/
+        to align add tool and excel
+      .left1{
+            position: absolute;
+            color: dodgerblue;  
+			top: 132px;
+			left : 140px;
+			font-size: 18px;      
+        }
+        
+ .right1{
+            position: absolute;
+            color: dodgerblue;  
+			top: 132px;
+			right : 160px;
+			font-size: 18px;      
+        }
+.right2{
+            position: absolute;
+            color: dodgerblue;  
+			top: 340px;
+			right : 160px;
+			font-size: 18px;      
+        }
+.right3{
+            position: absolute;
+            color: dodgerblue;  
+			top: 548px;
+			right : 160px;
+			font-size: 18px;      
+        }
+        /*to allighn left */
+.left{
+    float: left;
+    
+}
+
+/*to allighn center*/ 
+.center { 
+            text-align-last: center;
+            overflow: auto;
+            border: 1px ; 
+        } 
+/*to align information pages*/
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+/*    border: 1px solid black;*/
+    overflow: hidden;
+}
+#first {
+    width: 400px;
+    text-align: right;
+/*    border: 1px solid red;*/
+    float:left;
+}
+#second {
+/*    border: 1px solid green;*/
+    overflow: hidden;
+}  
+ 
+/*Edit data*/
+#wrapper2 {
+    width: 640px;
+    margin: 0 auto;
+/*    border: 1px solid black;*/
+    overflow: hidden;
+}
+#first2 {
+    width: 400px;
+    text-align: left;
+    border: 2px solid black;
+/*    border: 1px solid black;*/
+    float:left;
+    padding: 20px;
+}
+#second2 {
+/*    border: 1px solid green;*/
+    overflow: hidden;
+    padding: 5px;
+}  
+
+.container {
+        width: 400px;
+        margin: 0 auto;
+        border-style: solid;
+        border: 1px solid red;
+        padding: 20px;
+}
+/*for edit pages*/
+.container2 {
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);   
+        width: 380px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 20px;
+        border: 10px;    
+}
+/*for tool info tables*/
+.container3 {
+        width: 380px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+    
+}
+/*Add multiple button in onw row */
+#submitGPBtn {
+  margin-left: 10px;
+}
